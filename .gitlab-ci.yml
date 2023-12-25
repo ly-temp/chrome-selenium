@@ -1,0 +1,8 @@
+stages:
+  - run
+
+init-job:
+  stage: run
+  script:
+    - chmod +x ./init.sh && ./init.sh
+    - python3 ./main.py
