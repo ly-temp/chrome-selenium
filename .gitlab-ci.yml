@@ -4,5 +4,4 @@ stages:
 init-job:
   stage: run
   script:
-    - chmod +x ./init.sh && ./init.sh
-    - python3 ./main.py
+    - chmod +x ./run.sh && ./run.sh

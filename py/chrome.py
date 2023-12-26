@@ -9,6 +9,6 @@ options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-driver.get("https://python.org")
+driver.get("https://www.python.org")
 print(driver.title)
 driver.close()
